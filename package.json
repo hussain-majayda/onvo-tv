@@ -1,13 +1,26 @@
 {
-  "name": "onvo-tv",
+  "name": "@hydralerne/onvo-tv",
+  "appName": "Onvo-Tv",
   "version": "1.5.9",
   "description": "ONVO TV application",
   "author": "ONVO Platforms, LLC",
   "copyright": "© 2024 ONVO Platforms, LLC. All rights reserved.",
+  "websiteURL": "https://ovtv.me"
   "main": "main.js",
   "scripts": {
     "start": "node main.js"
+      "keys": [
+    "MediaPlayPause",
+    "MediaPlay",
+    "MediaPause",
+    "MediaStop",
+    "MediaFastForward",
+    "MediaRewind",
+    "MediaTrackNext",
+    "MediaTrackPrevious"
   },
+  "repository": {
+    "url": "https://github.com/Hydralerne/onvo-tv"
   "message": "Important update",
   "license": "CC-BY-NC-ND-4.0"
 }
